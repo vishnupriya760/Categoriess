@@ -1,0 +1,97 @@
+/* Custom styles for Getalltab component */
+.getalltab-container {
+  background: linear-gradient(135deg, #a18cd1 0%, #fbc2eb 100%);
+  min-height: 100vh;
+  padding: 32px;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.getalltab-header {
+  color: #800080;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 24px;
+}
+
+.getalltab-add-btn {
+  background: #800080;
+  color: #fff;
+  border-radius: 20px;
+  padding: 10px 24px;
+  font-weight: 600;
+  border: none;
+  margin-bottom: 24px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  transition: background 0.2s;
+}
+.getalltab-add-btn:hover {
+  background: #5a005a;
+}
+
+/* DataTable custom styles */
+.getalltab-table {
+  width: 100%;
+  min-height: 500px;
+  max-height: 700px;
+  overflow-y: auto;
+}
+.getalltab-table .rdt_TableHead {
+  background: #007bff;
+  color: #fff;
+}
+.getalltab-table .rdt_TableRow {
+  background: #fff;
+  transition: background 0.2s;
+}
+.getalltab-table .rdt_TableRow:hover {
+  background: #e3f2fd;
+}
+.getalltab-table .rdt_TableCell {
+  font-size: 1rem;
+  color: #333;
+}
+.getalltab-table .rdt_Pagination {
+  background: #f8f9fa;
+}
+.getalltab-table .rdt_Pagination button {
+  background: #8F00FF !important;
+  color: #fff !important;
+  border-radius: 8px;
+  border: none;
+  margin: 0 2px;
+  font-weight: 500;
+  transition: background 0.2s;
+}
+.getalltab-table .rdt_Pagination button:hover {
+  background: #d5cddc !important;
+}
+.getalltab-table .rdt_Pagination button[aria-label="Next Page"] {
+  background: #c4b3d1 !important;
+  color: #fff !important;
+  border-radius: 8px;
+  border: none;
+  margin: 0 2px;
+  font-weight: 500;
+  transition: background 0.2s;
+}
+.getalltab-table .rdt_Pagination button[aria-label="Next Page"]:hover {
+  background: #6d00cc !important;
+}
+
+/* Button styles in table */
+.getalltab-table button {
+  background: rgb(221, 51, 179);
+  color: #fff;
+  border: none;
+  border-radius: 12px;
+  padding: 6px 16px;
+  font-weight: 500;
+  margin: 0 4px;
+  transition: background 0.2s;
+}
+.getalltab-table button:hover {
+  background: #dc39ae;
+}
